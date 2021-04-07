@@ -60,7 +60,7 @@ public class HTTPRequestUtil {
 			return new ResponseEntity<HttpStatus>(HttpStatus.OK);
 		}
 		
-		LOGGER.error(cName + "Unauthorize!, You are not allow to access ITEK BUS!");
+		LOGGER.error(cName + "Unauthorize!, You are not allow to access OneFin!");
 		return new ResponseEntity<HttpStatus>(HttpStatus.UNAUTHORIZED);
 	}
 	
